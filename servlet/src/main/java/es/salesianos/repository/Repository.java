@@ -254,13 +254,14 @@ public class Repository {
 		ResultSet resultSet = null;
 		PreparedStatement prepareStatement = null;
 		try {
-			prepareStatement = conn.prepareStatement("SELECT * FROM PET WHERE codOwner=?");
+			prepareStatement = conn.prepareStatement("SELECT * FROM PET");
 			resultSet = prepareStatement.executeQuery();
 			while (resultSet.next()) {
 				Pet petInDatabase = new Pet();
 				
 				petInDatabase.setName(resultSet.getString(1));
-				petInDatabase.setCodOwner(resultSet.getInt(2));
+				petInDatabase.setChip(resultSet.getString(2));
+				
 				
 
 				listPets.add(petInDatabase);

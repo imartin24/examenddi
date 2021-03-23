@@ -35,7 +35,7 @@ public class PetService {
 	}
 
 	public List<Pet> listAllPets() {
-		LOGGER.info("ESTAS EN EL ListService");
-		return repository.searchAll();
+		
+		return repository.searchAllPets();
 	}
 }
