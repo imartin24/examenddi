@@ -15,8 +15,10 @@
 		<a href="addOwner.jsp">Quiero añadir un dueño</a>
 	</div>
 	<div>
-		<a href="listOwner.jsp">Quiero mostrar la lista de los dueños y
-			sus mascotas</a>
+		<a href="listOwner.jsp">Quiero mostrar la lista de los dueños y asociar y borrar mascotas</a>
+	</div>
+	<div>
+		<a href="listPet.jsp">Quiero mostrar la lista de las mascotas </a>
 	</div>
 </body>
 </html>
