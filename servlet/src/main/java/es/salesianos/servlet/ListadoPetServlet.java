@@ -13,6 +13,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import es.salesianos.model.Owner;
+import es.salesianos.model.Pet;
 import es.salesianos.repository.Repository;
 import es.salesianos.service.OwnerService;
 import es.salesianos.service.PetService;
