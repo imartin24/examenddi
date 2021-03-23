@@ -17,7 +17,7 @@ import es.salesianos.repository.Repository;
 import es.salesianos.service.OwnerService;
 import es.salesianos.service.PetService;
 
-public class ListadoOwnerServlet extends HttpServlet {
+public class ListadoPetServlet extends HttpServlet {
 	private static final Logger log = LogManager.getLogger(ListadoOwnerServlet.class);
 	private PetService servicio = new  PetService();
 	private Repository repository = new  Repository();
