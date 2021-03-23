@@ -32,7 +32,7 @@ public class Repository {
 				ownerInDatabase = new Owner();
 				ownerInDatabase.setCodOwner(resultSet.getInt(1));
 				ownerInDatabase.setName(resultSet.getString(2));
-				ownerInDatabase.setSurname(resultSet.getString(3));
+				ownerInDatabase.setDNI(resultSet.getString(3));
 			}
 		} catch (SQLException e) {
 			e.printStackTrace();
@@ -171,7 +171,7 @@ public class Repository {
 				
 				ownerInDatabase.setCodOwner(resultSet.getInt(1));
 				ownerInDatabase.setName(resultSet.getString(2));
-				ownerInDatabase.setSurname(resultSet.getString(3));
+				ownerInDatabase.setDNI(resultSet.getString(3));
 				
 				listOwners.add(ownerInDatabase);
 			}
@@ -214,7 +214,7 @@ public class Repository {
 				ownerInDatabase = new Owner();
 				ownerInDatabase.setCodOwner(resultSet.getInt(1));
 				ownerInDatabase.setName(resultSet.getString(2));
-				ownerInDatabase.setSurname(resultSet.getString(3));
+				ownerInDatabase.setDNI(resultSet.getString(3));
 			}
 		} catch (SQLException e) {
 			e.printStackTrace();

@@ -9,7 +9,7 @@ public class PetAssembler {
 		Pet pet = new Pet();
 		String codOwner=req.getParameter("codOwner");
 		String nombreMascota=req.getParameter("nombreMascota");
-		String indentificadorChip=req.getParameter("identificadorChip");
+		String identificadorChip=req.getParameter("identificadorChip");
 		if(null != codOwner) {
 			pet.setCodOwner(Integer.parseInt(codOwner));
 		}

@@ -22,4 +22,9 @@ public class PetService {
 		repository.insertPet(pet);
 		
 	}
+
+	public List<Pet> listAllPets() {
+		LOGGER.info("ESTAS EN EL ListService");
+		return repository.searchAll();
+	}
 }
